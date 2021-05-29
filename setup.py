@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="voice-recorder",
+    name="vr",
     version="0.0.1",
     author="ilia85-star",
     author_email="ilia.mahjour.shafiei@outlook.com",
@@ -16,7 +16,7 @@ setuptools.setup(
         "Bug Tracker": "https://github.com/ilia85-star/voice-recorder/issues",
     },
     entry_points={
-        "console_scripts": ["voice-recorder = voice-recorder.recorder:main"],
+        "console_scripts": ["vr = vr.vr:main"],
     },
     classifiers=[
         "Programming Language :: Python :: 3",
