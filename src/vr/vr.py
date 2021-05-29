@@ -1,4 +1,4 @@
-from librec import *
+from .librec import *
 from os import system
 
 def main():
