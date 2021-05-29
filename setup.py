@@ -25,6 +25,8 @@ setuptools.setup(
     ],
     install_requires=[
     'librec>=0.0.1',
+    'pyaudio>=0.2.0',
+    'audio.wave>=4.0.0'
     ],
     package_dir={"": "src"},
     packages=setuptools.find_packages(where="src"),
